@@ -88,8 +88,24 @@ select:focus{outline:none;border-color:var(--accent)}
 .dim{color:var(--dim)}
 .sec-title{font-family:var(--fh);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:10px}
 .dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
+.rep-link{cursor:pointer;color:var(--accent);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px}
+.rep-link:hover{color:#fff}
+.rep-check{cursor:pointer;display:inline-block;padding:1px 5px;border-radius:4px;color:var(--green);transition:background .12s,transform .12s;font-size:13px}
+.rep-check:hover{background:rgba(62,207,142,.2);transform:scale(1.25)}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:200;overflow-y:auto;padding:32px 16px;display:flex;align-items:flex-start;justify-content:center}
+.modal-box{background:var(--elev);border:1px solid var(--border);border-radius:var(--r);width:100%;max-width:960px;margin:auto}
+#repModal .tbl-scroll{max-height:400px;overflow-y:auto}
+#repModal thead th{position:sticky;top:0;background:var(--elev);z-index:2;cursor:pointer;user-select:none;white-space:nowrap}
+#repModal thead th:hover{color:var(--accent)}
+.sort-ind{font-size:10px;margin-left:3px;color:var(--accent)}
+.exp-input{background:transparent;border:none;color:var(--text);font-family:var(--fm);font-size:13px;width:100%;padding:0;min-width:0}
+.exp-input:focus{outline:1px solid var(--accent);background:var(--elev2);border-radius:3px;padding:0 4px}
+.exp-input.num{text-align:right;font-variant-numeric:tabular-nums}
+.exp-sel{background:transparent;border:none;color:var(--dim);font-size:12px;font-family:var(--fm);cursor:pointer;padding:0}
+.exp-sel:focus{outline:none;color:var(--text)}
+.exp-group-hdr td{background:var(--elev2);font-family:var(--fh);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);padding:5px 12px;border-top:1px solid var(--border)}
 </style>
-<script type="application/json" id="embeddedPayload">{"publishedAt":"2026-05-21T06:39:52.338Z","weekRange":"WE 1/4 — WE 5/17","weekCount":18,"allReps":["Abdallah Hasan","Aidan Brinley","Alejandra Castillo","Anthony Imbese","Antonio Sciarrino","Antonyo Chappell","Aubree Ganzel","Audree Carlson","Caithlin Carlsson","Caitlin Carlsson","Cameron Grant","Christian Pineda","Christopher Rivero","Colton Amburgy","Daniel Blank","Dell Barber","Devyon Wade","Diego Chavez","Dominic Garaycochea","Edward Pizzo","Eugene Milhizer","Evan Spurrier","Grace Tomaielly","Grant Harris","Grant Miner","Isabella Anzovino","Jacob Hune","Jade Leone","Jae'Len Arnum","Jae'len Arnum","Jaelen Arnum","Jahanna Roman Cruz","James Camp","Jason Carr","Jayse Meek","Jayse Meeks","John Hutnick","John Nicholas Landers-Hutnick","Jonathan Barkley","Jonathan Bruner","Joshua Francis","Kayla Alexis Corbitt","Kayla Corbitt","Kevin Driggs","Kieondre Myquel Scott-Tanner","Kieondre Scott Tanner","Kieondre Scott-Tanner","Lawrence Talbert","Lethia Houston","Michelle Diaz","Miguel Fumero","Owen Johnson","Prince Sanchez","Renato Jimenez","Renato Jimenez Guerrero","Rodrigo Silva","Rodrigo Silva Luis","Ronald Campbell","Ryan Lima","Ryleigh Bexfield","Sean Ethington","Sylas Emmanuelli","Sylas Samar Emmanuelli","Sytoris Anderson","Tiernan Dailey","Tyler Lewis","Zachary Heath"],"weeks":[{"label":"WE 1/4","sortKey":104,"reps":{"Audree Carlson":{"revenue":1545,"pay":620.5,"lines":22,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":655,"lines":6,"officeCost":25},"Christian Pineda":{"revenue":1098,"pay":549,"lines":13,"officeCost":0},"Christopher Rivero":{"revenue":751,"pay":440.5,"lines":6,"officeCost":0},"Devyon Wade":{"revenue":313,"pay":31.5,"lines":4,"officeCost":0},"Dominic Garaycochea":{"revenue":929,"pay":379.5,"lines":6,"officeCost":0},"Grace Tomaielly":{"revenue":1230,"pay":938,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":1938,"pay":1001.5,"lines":17,"officeCost":0},"James Camp":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jason Carr":{"revenue":2589,"pay":1314.5,"lines":24,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":943,"pay":386.5,"lines":10,"officeCost":0},"Kevin Driggs":{"revenue":606,"pay":303,"lines":6,"officeCost":0},"Owen Johnson":{"revenue":308,"pay":154,"lines":1,"officeCost":0}}},{"label":"WE 1/11","sortKey":111,"reps":{"Antonio Sciarrino":{"revenue":854,"pay":427,"lines":7,"officeCost":0},"Aubree Ganzel":{"revenue":1069,"pay":549.5,"lines":6,"officeCost":0},"Audree Carlson":{"revenue":1227,"pay":348.75,"lines":7,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":390,"lines":6,"officeCost":75},"Christian Pineda":{"revenue":0,"pay":-65,"lines":1,"officeCost":0},"Christopher Rivero":{"revenue":5710,"pay":3857.5,"lines":48,"officeCost":0},"Dominic Garaycochea":{"revenue":1392,"pay":621,"lines":10,"officeCost":0},"Grace Tomaielly":{"revenue":2319,"pay":1217.75,"lines":25,"officeCost":0},"Jae'len Arnum":{"revenue":3039,"pay":1707,"lines":32,"officeCost":0},"Jaelen Arnum":{"revenue":0,"pay":-35,"lines":1,"officeCost":0},"James Camp":{"revenue":1432,"pay":716,"lines":4,"officeCost":0},"Jason Carr":{"revenue":408,"pay":954,"lines":4,"officeCost":0},"John Hutnick":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Kevin Driggs":{"revenue":1106,"pay":553,"lines":15,"officeCost":0},"Owen Johnson":{"revenue":658,"pay":374,"lines":10,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1808,"pay":904,"lines":15,"officeCost":0},"Tiernan Dailey":{"revenue":1502,"pay":751,"lines":8,"officeCost":0}}},{"label":"WE 1/18","sortKey":118,"reps":{"Antonio Sciarrino":{"revenue":854,"pay":427,"lines":7,"officeCost":0},"Aubree Ganzel":{"revenue":1449,"pay":1079.5,"lines":13,"officeCost":0},"Audree Carlson":{"revenue":1760,"pay":925,"lines":12,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":1005,"lines":13,"officeCost":225},"Christian Pineda":{"revenue":1242,"pay":621,"lines":8,"officeCost":0},"Christopher Rivero":{"revenue":5053,"pay":2794,"lines":53,"officeCost":0},"Devyon Wade":{"revenue":375,"pay":187.5,"lines":3,"officeCost":0},"Dominic Garaycochea":{"revenue":2777,"pay":1388.5,"lines":24,"officeCost":0},"Grace Tomaielly":{"revenue":0,"pay":375,"lines":2,"officeCost":0},"Isabella Anzovino":{"revenue":3843,"pay":1996.5,"lines":38,"officeCost":0},"James Camp":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jason Carr":{"revenue":105,"pay":2.5,"lines":6,"officeCost":0},"Jayse Meek":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jayse Meeks":{"revenue":4343,"pay":2130.75,"lines":45,"officeCost":0},"Joshua Francis":{"revenue":343,"pay":96.5,"lines":4,"officeCost":0},"Kevin Driggs":{"revenue":801,"pay":445.5,"lines":10,"officeCost":0},"Owen Johnson":{"revenue":1119,"pay":579.5,"lines":13,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1850,"pay":900,"lines":16,"officeCost":0},"Tiernan Dailey":{"revenue":3049,"pay":973.75,"lines":32,"officeCost":0}}},{"label":"WE 1/25","sortKey":125,"reps":{"Aubree Ganzel":{"revenue":473,"pay":669,"lines":3,"officeCost":0},"Audree Carlson":{"revenue":1637,"pay":981,"lines":14,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":1105,"lines":15,"officeCost":210},"Christian Pineda":{"revenue":1700,"pay":815,"lines":13,"officeCost":0},"Christopher Rivero":{"revenue":2110,"pay":1122.5,"lines":20,"officeCost":0},"Diego Chavez":{"revenue":1722,"pay":1281,"lines":9,"officeCost":0},"Dominic Garaycochea":{"revenue":816,"pay":383,"lines":3,"officeCost":0},"Grace Tomaielly":{"revenue":2037,"pay":1506,"lines":15,"officeCost":0},"Isabella Anzovino":{"revenue":508,"pay":269,"lines":5,"officeCost":0},"Jae'len Arnum":{"revenue":1434,"pay":692,"lines":17,"officeCost":0},"Jahanna Roman Cruz":{"revenue":233,"pay":149,"lines":2,"officeCost":0},"Jason Carr":{"revenue":1494,"pay":757,"lines":9,"officeCost":0},"Jayse Meek":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":1372,"pay":686,"lines":12,"officeCost":0},"Kayla Corbitt":{"revenue":816,"pay":408,"lines":2,"officeCost":0},"Kevin Driggs":{"revenue":1059,"pay":534.5,"lines":12,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":2644,"pay":1247,"lines":17,"officeCost":0},"Sean Ethington":{"revenue":1622,"pay":1316,"lines":14,"officeCost":0},"Tiernan Dailey":{"revenue":1249,"pay":669.5,"lines":8,"officeCost":0}}},{"label":"WE 2/1","sortKey":201,"reps":{"Aubree Ganzel":{"revenue":408,"pay":604,"lines":2,"officeCost":0},"Audree Carlson":{"revenue":816,"pay":423,"lines":10,"officeCost":0},"Cameron Grant":{"revenue":1,"pay":875,"lines":11,"officeCost":125},"Christian Pineda":{"revenue":1715,"pay":832.5,"lines":16,"officeCost":0},"Christopher Rivero":{"revenue":568,"pay":284,"lines":7,"officeCost":0},"Diego Chavez":{"revenue":4503,"pay":3351.5,"lines":38,"officeCost":0},"Dominic Garaycochea":{"revenue":1930,"pay":1000,"lines":12,"officeCost":0},"Grace Tomaielly":{"revenue":408,"pay":966.5,"lines":7,"officeCost":0},"Isabella Anzovino":{"revenue":741,"pay":370.5,"lines":4,"officeCost":0},"Jacob Hune":{"revenue":811,"pay":360.5,"lines":7,"officeCost":0},"Jae'len Arnum":{"revenue":2594,"pay":1262,"lines":21,"officeCost":0},"Jason Carr":{"revenue":433,"pay":226.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":373,"pay":500.75,"lines":5,"officeCost":0},"Kayla Corbitt":{"revenue":1159,"pay":979.5,"lines":6,"officeCost":0},"Kevin Driggs":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":453,"pay":226.5,"lines":3,"officeCost":0},"Owen Johnson":{"revenue":618,"pay":374,"lines":6,"officeCost":0},"Sean Ethington":{"revenue":866,"pay":523,"lines":8,"officeCost":0},"Tiernan Dailey":{"revenue":1577,"pay":702.75,"lines":14,"officeCost":0}}},{"label":"WE 2/8","sortKey":208,"reps":{"Antonyo Chappell":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Aubree Ganzel":{"revenue":987,"pay":893.5,"lines":11,"officeCost":0},"Audree Carlson":{"revenue":1024,"pay":512,"lines":3,"officeCost":0},"Cameron Grant":{"revenue":5,"pay":845,"lines":13,"officeCost":100},"Christian Pineda":{"revenue":686,"pay":343,"lines":6,"officeCost":0},"Christopher Rivero":{"revenue":1437,"pay":718.5,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":1642,"pay":806,"lines":21,"officeCost":0},"Dominic Garaycochea":{"revenue":4053,"pay":1491.5,"lines":29,"officeCost":0},"Eugene Milhizer":{"revenue":1715,"pay":437.5,"lines":15,"officeCost":0},"Grace Tomaielly":{"revenue":408,"pay":129,"lines":3,"officeCost":0},"Jacob Hune":{"revenue":1447,"pay":723.5,"lines":10,"officeCost":0},"Jade Leone":{"revenue":1550,"pay":910,"lines":16,"officeCost":0},"Jae'len Arnum":{"revenue":1959,"pay":919.5,"lines":28,"officeCost":0},"Jason Carr":{"revenue":1009,"pay":504.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":816,"pay":808,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":876,"pay":368,"lines":6,"officeCost":0},"Michelle Diaz":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":1957,"pay":966,"lines":14,"officeCost":0},"Ryleigh Bexfield":{"revenue":1129,"pay":964.5,"lines":6,"officeCost":0},"Sean Ethington":{"revenue":1059,"pay":1019.5,"lines":12,"officeCost":0},"Sytoris Anderson":{"revenue":1314,"pay":1102,"lines":7,"officeCost":0},"Tiernan Dailey":{"revenue":1540,"pay":770,"lines":13,"officeCost":0}}},{"label":"WE 2/15","sortKey":215,"reps":{"Alejandra Castillo":{"revenue":1064,"pay":947,"lines":9,"officeCost":0},"Antonyo Chappell":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Aubree Ganzel":{"revenue":1898,"pay":949,"lines":17,"officeCost":0},"Audree Carlson":{"revenue":681,"pay":230.5,"lines":9,"officeCost":0},"Cameron Grant":{"revenue":2,"pay":1155,"lines":16,"officeCost":200},"Christian Pineda":{"revenue":343,"pay":171.5,"lines":3,"officeCost":0},"Christopher Rivero":{"revenue":1792,"pay":896,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":373,"pay":201.5,"lines":4,"officeCost":0},"Dominic Garaycochea":{"revenue":4287,"pay":2023.5,"lines":39,"officeCost":0},"Grace Tomaielly":{"revenue":313,"pay":131.5,"lines":4,"officeCost":0},"Jacob Hune":{"revenue":268,"pay":134,"lines":1,"officeCost":0},"Jade Leone":{"revenue":316,"pay":158,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":4000,"pay":2150,"lines":37,"officeCost":0},"Jason Carr":{"revenue":816,"pay":383,"lines":3,"officeCost":0},"Jayse Meek":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1522,"pay":806,"lines":10,"officeCost":0},"Kayla Corbitt":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":3134,"pay":1632,"lines":29,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":508,"pay":254,"lines":2,"officeCost":0},"Ryleigh Bexfield":{"revenue":313,"pay":521.5,"lines":5,"officeCost":0},"Sean Ethington":{"revenue":546,"pay":673,"lines":4,"officeCost":0},"Sytoris Anderson":{"revenue":974,"pay":417,"lines":11,"officeCost":0},"Tiernan Dailey":{"revenue":819,"pay":409.5,"lines":9,"officeCost":0}}},{"label":"WE 2/22","sortKey":222,"reps":{"Alejandra Castillo":{"revenue":2311,"pay":1660.5,"lines":23,"officeCost":0},"Aubree Ganzel":{"revenue":1190,"pay":595,"lines":16,"officeCost":0},"Audree Carlson":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":510,"lines":4,"officeCost":25},"Christopher Rivero":{"revenue":1602,"pay":776,"lines":15,"officeCost":0},"Diego Chavez":{"revenue":446,"pay":253,"lines":8,"officeCost":0},"Dominic Garaycochea":{"revenue":3401,"pay":1680.5,"lines":37,"officeCost":0},"Grace Tomaielly":{"revenue":1252,"pay":626,"lines":12,"officeCost":0},"Jacob Hune":{"revenue":35,"pay":17.5,"lines":1,"officeCost":0},"Jade Leone":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":3665,"pay":1997.5,"lines":44,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1582,"pay":921,"lines":12,"officeCost":0},"Kevin Driggs":{"revenue":849,"pay":424.5,"lines":7,"officeCost":0},"Michelle Diaz":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":0,"pay":-55,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1314,"pay":702,"lines":6,"officeCost":0},"Ryleigh Bexfield":{"revenue":656,"pay":728,"lines":9,"officeCost":0},"Sean Ethington":{"revenue":0,"pay":800,"lines":1,"officeCost":0},"Sytoris Anderson":{"revenue":313,"pay":556.5,"lines":4,"officeCost":0},"Tiernan Dailey":{"revenue":2907,"pay":1453.5,"lines":23,"officeCost":0}}},{"label":"WE 3/1","sortKey":301,"reps":{"Alejandra Castillo":{"revenue":1627,"pay":1658.5,"lines":10,"officeCost":0},"Anthony Imbese":{"revenue":2045,"pay":1482.5,"lines":14,"officeCost":0},"Caithlin Carlsson":{"revenue":488,"pay":619,"lines":6,"officeCost":0},"Cameron Grant":{"revenue":7,"pay":1080,"lines":14,"officeCost":50},"Christopher Rivero":{"revenue":4026,"pay":2058,"lines":31,"officeCost":0},"Colton Amburgy":{"revenue":1544,"pay":1172,"lines":25,"officeCost":0},"Daniel Blank":{"revenue":1565,"pay":1182.5,"lines":16,"officeCost":0},"Diego Chavez":{"revenue":4330,"pay":2340,"lines":43,"officeCost":0},"Dominic Garaycochea":{"revenue":4156,"pay":2068,"lines":34,"officeCost":0},"Grace Tomaielly":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Jacob Hune":{"revenue":0,"pay":-75,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":676,"pay":368,"lines":4,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-35,"lines":1,"officeCost":0},"Jason Carr":{"revenue":313,"pay":56.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":3137,"pay":1458.5,"lines":31,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2871,"pay":1570.5,"lines":21,"officeCost":0},"Kieondre Scott-Tanner":{"revenue":438,"pay":234,"lines":2,"officeCost":0},"Michelle Diaz":{"revenue":896,"pay":848,"lines":6,"officeCost":0},"Owen Johnson":{"revenue":1029,"pay":429.5,"lines":14,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":2989,"pay":1654.5,"lines":24,"officeCost":0},"Ryleigh Bexfield":{"revenue":2148,"pay":1474,"lines":18,"officeCost":0},"Sean Ethington":{"revenue":721,"pay":285.5,"lines":5,"officeCost":0},"Sytoris Anderson":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Tiernan Dailey":{"revenue":699,"pay":349.5,"lines":9,"officeCost":0}}},{"label":"WE 3/8","sortKey":308,"reps":{"Alejandra Castillo":{"revenue":751,"pay":540.5,"lines":13,"officeCost":0},"Anthony Imbese":{"revenue":408,"pay":204,"lines":4,"officeCost":0},"Caithlin Carlsson":{"revenue":456,"pay":228,"lines":2,"officeCost":0},"Caitlin Carlsson":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":7,"pay":1305,"lines":19,"officeCost":310},"Christopher Rivero":{"revenue":2210,"pay":1305,"lines":23,"officeCost":0},"Colton Amburgy":{"revenue":862,"pay":281,"lines":9,"officeCost":0},"Dell Barber":{"revenue":253,"pay":141.5,"lines":4,"officeCost":0},"Diego Chavez":{"revenue":611,"pay":310.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":1948,"pay":929,"lines":20,"officeCost":0},"Grant Harris":{"revenue":503,"pay":251.5,"lines":9,"officeCost":0},"Jacob Hune":{"revenue":343,"pay":96.5,"lines":4,"officeCost":0},"Jae'Len Arnum":{"revenue":831,"pay":385.5,"lines":10,"officeCost":0},"Jason Carr":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":504,"pay":252,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2546,"pay":1155.5,"lines":26,"officeCost":0},"Kevin Driggs":{"revenue":313,"pay":131.5,"lines":4,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":679,"pay":339.5,"lines":7,"officeCost":0},"Owen Johnson":{"revenue":343,"pay":311.5,"lines":5,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":3001,"pay":1655.5,"lines":28,"officeCost":0},"Ronald Campbell":{"revenue":686,"pay":373,"lines":8,"officeCost":0},"Ryleigh Bexfield":{"revenue":1915,"pay":1007.5,"lines":23,"officeCost":0},"Sean Ethington":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Sytoris Anderson":{"revenue":864,"pay":477,"lines":10,"officeCost":0},"Tiernan Dailey":{"revenue":496,"pay":248,"lines":6,"officeCost":0},"Tyler Lewis":{"revenue":358,"pay":194,"lines":2,"officeCost":0}}},{"label":"WE 3/16","sortKey":316,"reps":{"Alejandra Castillo":{"revenue":1159,"pay":544.5,"lines":8,"officeCost":0},"Anthony Imbese":{"revenue":4649,"pay":2439.5,"lines":44,"officeCost":0},"Caithlin Carlsson":{"revenue":626,"pay":313,"lines":6,"officeCost":0},"Cameron Grant":{"revenue":5,"pay":1225.01,"lines":15,"officeCost":200},"Christopher Rivero":{"revenue":4619,"pay":2429.5,"lines":44,"officeCost":0},"Colton Amburgy":{"revenue":1024,"pay":512,"lines":7,"officeCost":0},"Daniel Blank":{"revenue":1878,"pay":939,"lines":18,"officeCost":0},"Dell Barber":{"revenue":1275,"pay":1112.5,"lines":14,"officeCost":0},"Diego Chavez":{"revenue":2574,"pay":1282,"lines":33,"officeCost":0},"Dominic Garaycochea":{"revenue":1522,"pay":661,"lines":12,"officeCost":0},"Grace Tomaielly":{"revenue":148,"pay":74,"lines":2,"officeCost":0},"Grant Harris":{"revenue":846,"pay":917,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":1652,"pay":901,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jason Carr":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jayse Meek":{"revenue":138,"pay":69,"lines":1,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1189,"pay":599.5,"lines":8,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":626,"pay":313,"lines":6,"officeCost":0},"Kieondre Scott Tanner":{"revenue":193,"pay":96.5,"lines":3,"officeCost":0},"Michelle Diaz":{"revenue":338,"pay":184,"lines":2,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1660,"pay":830,"lines":13,"officeCost":0},"Ryleigh Bexfield":{"revenue":1347,"pay":693.5,"lines":15,"officeCost":0},"Sytoris Anderson":{"revenue":443,"pay":251.5,"lines":8,"officeCost":0},"Tiernan Dailey":{"revenue":408,"pay":204,"lines":1,"officeCost":0}}},{"label":"WE 3/22","sortKey":322,"reps":{"Alejandra Castillo":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Anthony Imbese":{"revenue":2021,"pay":975.5,"lines":18,"officeCost":0},"Cameron Grant":{"revenue":1,"pay":1020,"lines":12,"officeCost":100},"Christopher Rivero":{"revenue":1239,"pay":632,"lines":11,"officeCost":0},"Daniel Blank":{"revenue":987,"pay":1293.5,"lines":15,"officeCost":0},"Diego Chavez":{"revenue":1277,"pay":628.5,"lines":11,"officeCost":0},"Dominic Garaycochea":{"revenue":671,"pay":350.5,"lines":5,"officeCost":0},"Grant Harris":{"revenue":716,"pay":1138,"lines":7,"officeCost":0},"Jae'Len Arnum":{"revenue":2143,"pay":1071.5,"lines":18,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1943,"pay":951.5,"lines":18,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1302,"pay":711,"lines":15,"officeCost":0},"Lethia Houston":{"revenue":1876,"pay":781,"lines":16,"officeCost":0},"Owen Johnson":{"revenue":228,"pay":114,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":671,"pay":253.5,"lines":4,"officeCost":0},"Ryan Lima":{"revenue":358,"pay":159,"lines":3,"officeCost":0},"Ryleigh Bexfield":{"revenue":2249,"pay":1099.5,"lines":23,"officeCost":0},"Sean Ethington":{"revenue":353,"pay":176.5,"lines":2,"officeCost":0},"Tiernan Dailey":{"revenue":669,"pay":279.5,"lines":10,"officeCost":0},"Zachary Heath":{"revenue":328,"pay":164,"lines":1,"officeCost":0}}},{"label":"WE 3/29","sortKey":329,"reps":{"Abdallah Hasan":{"revenue":213,"pay":106.5,"lines":3,"officeCost":0},"Alejandra Castillo":{"revenue":1357,"pay":628.5,"lines":12,"officeCost":0},"Anthony Imbese":{"revenue":3010,"pay":1635,"lines":34,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":745,"lines":10,"officeCost":125},"Christopher Rivero":{"revenue":1525,"pay":792.5,"lines":18,"officeCost":0},"Daniel Blank":{"revenue":1014,"pay":507,"lines":7,"officeCost":0},"Diego Chavez":{"revenue":466,"pay":233,"lines":5,"officeCost":0},"Dominic Garaycochea":{"revenue":2401,"pay":1025.5,"lines":24,"officeCost":0},"Grace Tomaielly":{"revenue":1174,"pay":587,"lines":13,"officeCost":0},"Grant Harris":{"revenue":1723,"pay":1131.5,"lines":18,"officeCost":0},"Jae'Len Arnum":{"revenue":751,"pay":375.5,"lines":7,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":50,"lines":1,"officeCost":0},"Jonathan Bruner":{"revenue":3252,"pay":2331,"lines":29,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2058,"pay":1029,"lines":18,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1930,"pay":1955,"lines":20,"officeCost":0},"Lethia Houston":{"revenue":4590,"pay":3805.5,"lines":38,"officeCost":0},"Owen Johnson":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1094,"pay":338,"lines":11,"officeCost":0},"Ryan Lima":{"revenue":1865,"pay":1407.5,"lines":21,"officeCost":0},"Ryleigh Bexfield":{"revenue":769,"pay":484.5,"lines":5,"officeCost":0},"Tiernan Dailey":{"revenue":686,"pay":343,"lines":6,"officeCost":0},"Zachary Heath":{"revenue":736,"pay":1568,"lines":6,"officeCost":0}}},{"label":"WE 4/5","sortKey":405,"reps":{"Abdallah Hasan":{"revenue":990,"pay":1057.5,"lines":16,"officeCost":0},"Alejandra Castillo":{"revenue":1700,"pay":850,"lines":13,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":955,"lines":14,"officeCost":185},"Christopher Rivero":{"revenue":1124,"pay":519.5,"lines":11,"officeCost":0},"Daniel Blank":{"revenue":1029,"pay":459.5,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":671,"pay":195.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":2972,"pay":1461,"lines":25,"officeCost":0},"Grace Tomaielly":{"revenue":168,"pay":59,"lines":2,"officeCost":0},"Grant Harris":{"revenue":1077,"pay":498.5,"lines":12,"officeCost":0},"Jae'Len Arnum":{"revenue":1490,"pay":745,"lines":12,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jonathan Bruner":{"revenue":4206,"pay":2868,"lines":45,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":448,"pay":214,"lines":6,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1720,"pay":935,"lines":14,"officeCost":0},"Lethia Houston":{"revenue":3764,"pay":2442,"lines":41,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":358,"pay":179,"lines":4,"officeCost":0},"Sytoris Anderson":{"revenue":578,"pay":334,"lines":10,"officeCost":0},"Tiernan Dailey":{"revenue":551,"pay":275.5,"lines":4,"officeCost":0},"Zachary Heath":{"revenue":616,"pay":338,"lines":4,"officeCost":0}}},{"label":"WE 4/18","sortKey":418,"reps":{"Abdallah Hasan":{"revenue":661,"pay":330.5,"lines":4,"officeCost":0},"Aidan Brinley":{"revenue":1144,"pay":1052,"lines":7,"officeCost":0},"Alejandra Castillo":{"revenue":336,"pay":168,"lines":4,"officeCost":0},"Anthony Imbese":{"revenue":70,"pay":835,"lines":4,"officeCost":0},"Cameron Grant":{"revenue":3,"pay":860,"lines":13,"officeCost":200},"Christopher Rivero":{"revenue":2472,"pay":1318.5,"lines":33,"officeCost":0},"Daniel Blank":{"revenue":1738,"pay":929,"lines":19,"officeCost":0},"Diego Chavez":{"revenue":591,"pay":300.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":1217,"pay":503.5,"lines":16,"officeCost":0},"Edward Pizzo":{"revenue":686,"pay":358,"lines":3,"officeCost":0},"Evan Spurrier":{"revenue":2084,"pay":1562,"lines":28,"officeCost":0},"Grace Tomaielly":{"revenue":864,"pay":507,"lines":8,"officeCost":0},"Grant Harris":{"revenue":601,"pay":330.5,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":2341,"pay":1235.5,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-45,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":358,"pay":194,"lines":2,"officeCost":0},"Jonathan Bruner":{"revenue":213,"pay":81.5,"lines":4,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1356,"pay":636,"lines":18,"officeCost":0},"Kevin Driggs":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1685,"pay":857.5,"lines":17,"officeCost":0},"Lawrence Talbert":{"revenue":381,"pay":148.5,"lines":5,"officeCost":0},"Lethia Houston":{"revenue":1140,"pay":570,"lines":13,"officeCost":0},"Renato Jimenez":{"revenue":0,"pay":-70,"lines":2,"officeCost":0},"Rodrigo Silva":{"revenue":1880,"pay":1470,"lines":18,"officeCost":0},"Ryleigh Bexfield":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Sylas Emmanuelli":{"revenue":1573,"pay":1076.5,"lines":23,"officeCost":0},"Sytoris Anderson":{"revenue":1179,"pay":662,"lines":7,"officeCost":0},"Tiernan Dailey":{"revenue":2003,"pay":1331.5,"lines":17,"officeCost":0},"Zachary Heath":{"revenue":736,"pay":398,"lines":8,"officeCost":0}}},{"label":"WE 5/3","sortKey":503,"reps":{"Abdallah Hasan":{"revenue":1224,"pay":742,"lines":10,"officeCost":0},"Aidan Brinley":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":1035,"lines":14,"officeCost":185},"Christopher Rivero":{"revenue":596,"pay":298,"lines":10,"officeCost":0},"Daniel Blank":{"revenue":1059,"pay":464.5,"lines":13,"officeCost":0},"Edward Pizzo":{"revenue":852,"pay":426,"lines":12,"officeCost":0},"Evan Spurrier":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Grace Tomaielly":{"revenue":2331,"pay":1190.5,"lines":23,"officeCost":0},"Grant Harris":{"revenue":1134,"pay":572,"lines":14,"officeCost":0},"Grant Miner":{"revenue":616,"pay":340.5,"lines":3,"officeCost":0},"Jae'Len Arnum":{"revenue":1665,"pay":832.5,"lines":15,"officeCost":0},"Jayse Meek":{"revenue":3172,"pay":1636,"lines":33,"officeCost":0},"Jonathan Bruner":{"revenue":829,"pay":639.5,"lines":8,"officeCost":0},"Lawrence Talbert":{"revenue":0,"pay":232.5,"lines":1,"officeCost":0},"Lethia Houston":{"revenue":2371,"pay":1210.5,"lines":20,"officeCost":0},"Miguel Fumero":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Rodrigo Silva Luis":{"revenue":666,"pay":258,"lines":7,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":994,"pay":497,"lines":7,"officeCost":0},"Sytoris Anderson":{"revenue":1269,"pay":714.5,"lines":13,"officeCost":0},"Tiernan Dailey":{"revenue":1440,"pay":672.5,"lines":22,"officeCost":0},"Zachary Heath":{"revenue":1182,"pay":591,"lines":12,"officeCost":0}}},{"label":"WE 5/10","sortKey":510,"reps":{"Abdallah Hasan":{"revenue":473,"pay":269,"lines":5,"officeCost":0},"Aidan Brinley":{"revenue":468,"pay":234,"lines":7,"officeCost":0},"Alejandra Castillo":{"revenue":203,"pay":101.5,"lines":3,"officeCost":0},"Anthony Imbese":{"revenue":1455,"pay":702.5,"lines":15,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":980,"lines":13,"officeCost":250},"Christopher Rivero":{"revenue":2291,"pay":1145.5,"lines":23,"officeCost":0},"Daniel Blank":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Evan Spurrier":{"revenue":1072,"pay":536,"lines":16,"officeCost":0},"Grace Tomaielly":{"revenue":336,"pay":168,"lines":4,"officeCost":0},"Grant Harris":{"revenue":2083,"pay":1001.5,"lines":21,"officeCost":0},"Grant Miner":{"revenue":602,"pay":301,"lines":7,"officeCost":0},"Jade Leone":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":1054,"pay":477,"lines":12,"officeCost":0},"Jonathan Barkley":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Jonathan Bruner":{"revenue":1337,"pay":668.5,"lines":9,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":0,"pay":50,"lines":1,"officeCost":0},"Lethia Houston":{"revenue":1000,"pay":500,"lines":13,"officeCost":0},"Miguel Fumero":{"revenue":669,"pay":334.5,"lines":7,"officeCost":0},"Rodrigo Silva Luis":{"revenue":1676,"pay":788,"lines":16,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":661,"pay":295.5,"lines":5,"officeCost":0},"Sytoris Anderson":{"revenue":796,"pay":433,"lines":9,"officeCost":0},"Tiernan Dailey":{"revenue":1725,"pay":1010,"lines":14,"officeCost":0},"Zachary Heath":{"revenue":-3656.45,"pay":-1828.225,"lines":7,"officeCost":0}}},{"label":"WE 5/17","sortKey":517,"reps":{"Abdallah Hasan":{"revenue":1717,"pay":963.5,"lines":18,"officeCost":0},"Aidan Brinley":{"revenue":1468,"pay":531,"lines":17,"officeCost":0},"Alejandra Castillo":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":610,"lines":7,"officeCost":100},"Christopher Rivero":{"revenue":238,"pay":84,"lines":4,"officeCost":0},"Evan Spurrier":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Grace Tomaielly":{"revenue":1505,"pay":602.5,"lines":16,"officeCost":0},"Grant Harris":{"revenue":942,"pay":471,"lines":12,"officeCost":0},"Grant Miner":{"revenue":474,"pay":237,"lines":7,"officeCost":0},"Jae'Len Arnum":{"revenue":208,"pay":104,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":348,"pay":174,"lines":4,"officeCost":0},"Jonathan Bruner":{"revenue":160,"pay":55,"lines":7,"officeCost":0},"Kevin Driggs":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":408,"pay":204,"lines":4,"officeCost":0},"Lethia Houston":{"revenue":43,"pay":21.5,"lines":2,"officeCost":0},"Prince Sanchez":{"revenue":406,"pay":603,"lines":7,"officeCost":0},"Rodrigo Silva Luis":{"revenue":323,"pay":561.5,"lines":2,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":1421,"pay":507.5,"lines":21,"officeCost":0},"Tiernan Dailey":{"revenue":691,"pay":285.5,"lines":8,"officeCost":0},"Zachary Heath":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0}}}]}</script>
+<script type="application/json" id="embeddedPayload">{"publishedAt":"2026-05-21T07:00:27.964Z","weekRange":"WE 1/4 — WE 5/17","weekCount":18,"allReps":["Abdallah Hasan","Aidan Brinley","Alejandra Castillo","Anthony Imbese","Antonio Sciarrino","Antonyo Chappell","Aubree Ganzel","Audree Carlson","Caithlin Carlsson","Caitlin Carlsson","Cameron Grant","Christian Pineda","Christopher Rivero","Colton Amburgy","Daniel Blank","Dell Barber","Devyon Wade","Diego Chavez","Dominic Garaycochea","Edward Pizzo","Eugene Milhizer","Evan Spurrier","Grace Tomaielly","Grant Harris","Grant Miner","Isabella Anzovino","Jacob Hune","Jade Leone","Jae'Len Arnum","Jae'len Arnum","Jaelen Arnum","Jahanna Roman Cruz","James Camp","Jason Carr","Jayse Meek","Jayse Meeks","John Hutnick","John Nicholas Landers-Hutnick","Jonathan Barkley","Jonathan Bruner","Joshua Francis","Kayla Alexis Corbitt","Kayla Corbitt","Kevin Driggs","Kieondre Myquel Scott-Tanner","Kieondre Scott Tanner","Kieondre Scott-Tanner","Lawrence Talbert","Lethia Houston","Michelle Diaz","Miguel Fumero","Owen Johnson","Prince Sanchez","Renato Jimenez","Renato Jimenez Guerrero","Rodrigo Silva","Rodrigo Silva Luis","Ronald Campbell","Ryan Lima","Ryleigh Bexfield","Sean Ethington","Sylas Emmanuelli","Sylas Samar Emmanuelli","Sytoris Anderson","Tiernan Dailey","Tyler Lewis","Zachary Heath"],"weeks":[{"label":"WE 1/4","sortKey":104,"reps":{"Audree Carlson":{"revenue":1545,"pay":620.5,"lines":22,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":655,"lines":6,"officeCost":25},"Christian Pineda":{"revenue":1098,"pay":549,"lines":13,"officeCost":0},"Christopher Rivero":{"revenue":751,"pay":440.5,"lines":6,"officeCost":0},"Devyon Wade":{"revenue":313,"pay":31.5,"lines":4,"officeCost":0},"Dominic Garaycochea":{"revenue":929,"pay":379.5,"lines":6,"officeCost":0},"Grace Tomaielly":{"revenue":1230,"pay":938,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":1938,"pay":1001.5,"lines":17,"officeCost":0},"James Camp":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jason Carr":{"revenue":2589,"pay":1314.5,"lines":24,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":943,"pay":386.5,"lines":10,"officeCost":0},"Kevin Driggs":{"revenue":606,"pay":303,"lines":6,"officeCost":0},"Owen Johnson":{"revenue":308,"pay":154,"lines":1,"officeCost":0}}},{"label":"WE 1/11","sortKey":111,"reps":{"Antonio Sciarrino":{"revenue":854,"pay":427,"lines":7,"officeCost":0},"Aubree Ganzel":{"revenue":1069,"pay":549.5,"lines":6,"officeCost":0},"Audree Carlson":{"revenue":1227,"pay":348.75,"lines":7,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":390,"lines":6,"officeCost":75},"Christian Pineda":{"revenue":0,"pay":-65,"lines":1,"officeCost":0},"Christopher Rivero":{"revenue":5710,"pay":3857.5,"lines":48,"officeCost":0},"Dominic Garaycochea":{"revenue":1392,"pay":621,"lines":10,"officeCost":0},"Grace Tomaielly":{"revenue":2319,"pay":1217.75,"lines":25,"officeCost":0},"Jae'len Arnum":{"revenue":3039,"pay":1707,"lines":32,"officeCost":0},"Jaelen Arnum":{"revenue":0,"pay":-35,"lines":1,"officeCost":0},"James Camp":{"revenue":1432,"pay":716,"lines":4,"officeCost":0},"Jason Carr":{"revenue":408,"pay":954,"lines":4,"officeCost":0},"John Hutnick":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Kevin Driggs":{"revenue":1106,"pay":553,"lines":15,"officeCost":0},"Owen Johnson":{"revenue":658,"pay":374,"lines":10,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1808,"pay":904,"lines":15,"officeCost":0},"Tiernan Dailey":{"revenue":1502,"pay":751,"lines":8,"officeCost":0}}},{"label":"WE 1/18","sortKey":118,"reps":{"Antonio Sciarrino":{"revenue":854,"pay":427,"lines":7,"officeCost":0},"Aubree Ganzel":{"revenue":1449,"pay":1079.5,"lines":13,"officeCost":0},"Audree Carlson":{"revenue":1760,"pay":925,"lines":12,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":1005,"lines":13,"officeCost":225},"Christian Pineda":{"revenue":1242,"pay":621,"lines":8,"officeCost":0},"Christopher Rivero":{"revenue":5053,"pay":2794,"lines":53,"officeCost":0},"Devyon Wade":{"revenue":375,"pay":187.5,"lines":3,"officeCost":0},"Dominic Garaycochea":{"revenue":2777,"pay":1388.5,"lines":24,"officeCost":0},"Grace Tomaielly":{"revenue":0,"pay":375,"lines":2,"officeCost":0},"Isabella Anzovino":{"revenue":3843,"pay":1996.5,"lines":38,"officeCost":0},"James Camp":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jason Carr":{"revenue":105,"pay":2.5,"lines":6,"officeCost":0},"Jayse Meek":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Jayse Meeks":{"revenue":4343,"pay":2130.75,"lines":45,"officeCost":0},"Joshua Francis":{"revenue":343,"pay":96.5,"lines":4,"officeCost":0},"Kevin Driggs":{"revenue":801,"pay":445.5,"lines":10,"officeCost":0},"Owen Johnson":{"revenue":1119,"pay":579.5,"lines":13,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1850,"pay":900,"lines":16,"officeCost":0},"Tiernan Dailey":{"revenue":3049,"pay":973.75,"lines":32,"officeCost":0}}},{"label":"WE 1/25","sortKey":125,"reps":{"Aubree Ganzel":{"revenue":473,"pay":669,"lines":3,"officeCost":0},"Audree Carlson":{"revenue":1637,"pay":981,"lines":14,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":1105,"lines":15,"officeCost":210},"Christian Pineda":{"revenue":1700,"pay":815,"lines":13,"officeCost":0},"Christopher Rivero":{"revenue":2110,"pay":1122.5,"lines":20,"officeCost":0},"Diego Chavez":{"revenue":1722,"pay":1281,"lines":9,"officeCost":0},"Dominic Garaycochea":{"revenue":816,"pay":383,"lines":3,"officeCost":0},"Grace Tomaielly":{"revenue":2037,"pay":1506,"lines":15,"officeCost":0},"Isabella Anzovino":{"revenue":508,"pay":269,"lines":5,"officeCost":0},"Jae'len Arnum":{"revenue":1434,"pay":692,"lines":17,"officeCost":0},"Jahanna Roman Cruz":{"revenue":233,"pay":149,"lines":2,"officeCost":0},"Jason Carr":{"revenue":1494,"pay":757,"lines":9,"officeCost":0},"Jayse Meek":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"John Nicholas Landers-Hutnick":{"revenue":1372,"pay":686,"lines":12,"officeCost":0},"Kayla Corbitt":{"revenue":816,"pay":408,"lines":2,"officeCost":0},"Kevin Driggs":{"revenue":1059,"pay":534.5,"lines":12,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":2644,"pay":1247,"lines":17,"officeCost":0},"Sean Ethington":{"revenue":1622,"pay":1316,"lines":14,"officeCost":0},"Tiernan Dailey":{"revenue":1249,"pay":669.5,"lines":8,"officeCost":0}}},{"label":"WE 2/1","sortKey":201,"reps":{"Aubree Ganzel":{"revenue":408,"pay":604,"lines":2,"officeCost":0},"Audree Carlson":{"revenue":816,"pay":423,"lines":10,"officeCost":0},"Cameron Grant":{"revenue":1,"pay":875,"lines":11,"officeCost":125},"Christian Pineda":{"revenue":1715,"pay":832.5,"lines":16,"officeCost":0},"Christopher Rivero":{"revenue":568,"pay":284,"lines":7,"officeCost":0},"Diego Chavez":{"revenue":4503,"pay":3351.5,"lines":38,"officeCost":0},"Dominic Garaycochea":{"revenue":1930,"pay":1000,"lines":12,"officeCost":0},"Grace Tomaielly":{"revenue":408,"pay":966.5,"lines":7,"officeCost":0},"Isabella Anzovino":{"revenue":741,"pay":370.5,"lines":4,"officeCost":0},"Jacob Hune":{"revenue":811,"pay":360.5,"lines":7,"officeCost":0},"Jae'len Arnum":{"revenue":2594,"pay":1262,"lines":21,"officeCost":0},"Jason Carr":{"revenue":433,"pay":226.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":373,"pay":500.75,"lines":5,"officeCost":0},"Kayla Corbitt":{"revenue":1159,"pay":979.5,"lines":6,"officeCost":0},"Kevin Driggs":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":453,"pay":226.5,"lines":3,"officeCost":0},"Owen Johnson":{"revenue":618,"pay":374,"lines":6,"officeCost":0},"Sean Ethington":{"revenue":866,"pay":523,"lines":8,"officeCost":0},"Tiernan Dailey":{"revenue":1577,"pay":702.75,"lines":14,"officeCost":0}}},{"label":"WE 2/8","sortKey":208,"reps":{"Antonyo Chappell":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Aubree Ganzel":{"revenue":987,"pay":893.5,"lines":11,"officeCost":0},"Audree Carlson":{"revenue":1024,"pay":512,"lines":3,"officeCost":0},"Cameron Grant":{"revenue":5,"pay":845,"lines":13,"officeCost":100},"Christian Pineda":{"revenue":686,"pay":343,"lines":6,"officeCost":0},"Christopher Rivero":{"revenue":1437,"pay":718.5,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":1642,"pay":806,"lines":21,"officeCost":0},"Dominic Garaycochea":{"revenue":4053,"pay":1491.5,"lines":29,"officeCost":0},"Eugene Milhizer":{"revenue":1715,"pay":437.5,"lines":15,"officeCost":0},"Grace Tomaielly":{"revenue":408,"pay":129,"lines":3,"officeCost":0},"Jacob Hune":{"revenue":1447,"pay":723.5,"lines":10,"officeCost":0},"Jade Leone":{"revenue":1550,"pay":910,"lines":16,"officeCost":0},"Jae'len Arnum":{"revenue":1959,"pay":919.5,"lines":28,"officeCost":0},"Jason Carr":{"revenue":1009,"pay":504.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":816,"pay":808,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":876,"pay":368,"lines":6,"officeCost":0},"Michelle Diaz":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":1957,"pay":966,"lines":14,"officeCost":0},"Ryleigh Bexfield":{"revenue":1129,"pay":964.5,"lines":6,"officeCost":0},"Sean Ethington":{"revenue":1059,"pay":1019.5,"lines":12,"officeCost":0},"Sytoris Anderson":{"revenue":1314,"pay":1102,"lines":7,"officeCost":0},"Tiernan Dailey":{"revenue":1540,"pay":770,"lines":13,"officeCost":0}}},{"label":"WE 2/15","sortKey":215,"reps":{"Alejandra Castillo":{"revenue":1064,"pay":947,"lines":9,"officeCost":0},"Antonyo Chappell":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Aubree Ganzel":{"revenue":1898,"pay":949,"lines":17,"officeCost":0},"Audree Carlson":{"revenue":681,"pay":230.5,"lines":9,"officeCost":0},"Cameron Grant":{"revenue":2,"pay":1155,"lines":16,"officeCost":200},"Christian Pineda":{"revenue":343,"pay":171.5,"lines":3,"officeCost":0},"Christopher Rivero":{"revenue":1792,"pay":896,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":373,"pay":201.5,"lines":4,"officeCost":0},"Dominic Garaycochea":{"revenue":4287,"pay":2023.5,"lines":39,"officeCost":0},"Grace Tomaielly":{"revenue":313,"pay":131.5,"lines":4,"officeCost":0},"Jacob Hune":{"revenue":268,"pay":134,"lines":1,"officeCost":0},"Jade Leone":{"revenue":316,"pay":158,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":4000,"pay":2150,"lines":37,"officeCost":0},"Jason Carr":{"revenue":816,"pay":383,"lines":3,"officeCost":0},"Jayse Meek":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1522,"pay":806,"lines":10,"officeCost":0},"Kayla Corbitt":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":3134,"pay":1632,"lines":29,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":508,"pay":254,"lines":2,"officeCost":0},"Ryleigh Bexfield":{"revenue":313,"pay":521.5,"lines":5,"officeCost":0},"Sean Ethington":{"revenue":546,"pay":673,"lines":4,"officeCost":0},"Sytoris Anderson":{"revenue":974,"pay":417,"lines":11,"officeCost":0},"Tiernan Dailey":{"revenue":819,"pay":409.5,"lines":9,"officeCost":0}}},{"label":"WE 2/22","sortKey":222,"reps":{"Alejandra Castillo":{"revenue":2311,"pay":1660.5,"lines":23,"officeCost":0},"Aubree Ganzel":{"revenue":1190,"pay":595,"lines":16,"officeCost":0},"Audree Carlson":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":510,"lines":4,"officeCost":25},"Christopher Rivero":{"revenue":1602,"pay":776,"lines":15,"officeCost":0},"Diego Chavez":{"revenue":446,"pay":253,"lines":8,"officeCost":0},"Dominic Garaycochea":{"revenue":3401,"pay":1680.5,"lines":37,"officeCost":0},"Grace Tomaielly":{"revenue":1252,"pay":626,"lines":12,"officeCost":0},"Jacob Hune":{"revenue":35,"pay":17.5,"lines":1,"officeCost":0},"Jade Leone":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":3665,"pay":1997.5,"lines":44,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1582,"pay":921,"lines":12,"officeCost":0},"Kevin Driggs":{"revenue":849,"pay":424.5,"lines":7,"officeCost":0},"Michelle Diaz":{"revenue":408,"pay":204,"lines":1,"officeCost":0},"Owen Johnson":{"revenue":0,"pay":-55,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1314,"pay":702,"lines":6,"officeCost":0},"Ryleigh Bexfield":{"revenue":656,"pay":728,"lines":9,"officeCost":0},"Sean Ethington":{"revenue":0,"pay":800,"lines":1,"officeCost":0},"Sytoris Anderson":{"revenue":313,"pay":556.5,"lines":4,"officeCost":0},"Tiernan Dailey":{"revenue":2907,"pay":1453.5,"lines":23,"officeCost":0}}},{"label":"WE 3/1","sortKey":301,"reps":{"Alejandra Castillo":{"revenue":1627,"pay":1658.5,"lines":10,"officeCost":0},"Anthony Imbese":{"revenue":2045,"pay":1482.5,"lines":14,"officeCost":0},"Caithlin Carlsson":{"revenue":488,"pay":619,"lines":6,"officeCost":0},"Cameron Grant":{"revenue":7,"pay":1080,"lines":14,"officeCost":50},"Christopher Rivero":{"revenue":4026,"pay":2058,"lines":31,"officeCost":0},"Colton Amburgy":{"revenue":1544,"pay":1172,"lines":25,"officeCost":0},"Daniel Blank":{"revenue":1565,"pay":1182.5,"lines":16,"officeCost":0},"Diego Chavez":{"revenue":4330,"pay":2340,"lines":43,"officeCost":0},"Dominic Garaycochea":{"revenue":4156,"pay":2068,"lines":34,"officeCost":0},"Grace Tomaielly":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Jacob Hune":{"revenue":0,"pay":-75,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":676,"pay":368,"lines":4,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-35,"lines":1,"officeCost":0},"Jason Carr":{"revenue":313,"pay":56.5,"lines":5,"officeCost":0},"Jayse Meek":{"revenue":3137,"pay":1458.5,"lines":31,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2871,"pay":1570.5,"lines":21,"officeCost":0},"Kieondre Scott-Tanner":{"revenue":438,"pay":234,"lines":2,"officeCost":0},"Michelle Diaz":{"revenue":896,"pay":848,"lines":6,"officeCost":0},"Owen Johnson":{"revenue":1029,"pay":429.5,"lines":14,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":2989,"pay":1654.5,"lines":24,"officeCost":0},"Ryleigh Bexfield":{"revenue":2148,"pay":1474,"lines":18,"officeCost":0},"Sean Ethington":{"revenue":721,"pay":285.5,"lines":5,"officeCost":0},"Sytoris Anderson":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Tiernan Dailey":{"revenue":699,"pay":349.5,"lines":9,"officeCost":0}}},{"label":"WE 3/8","sortKey":308,"reps":{"Alejandra Castillo":{"revenue":751,"pay":540.5,"lines":13,"officeCost":0},"Anthony Imbese":{"revenue":408,"pay":204,"lines":4,"officeCost":0},"Caithlin Carlsson":{"revenue":456,"pay":228,"lines":2,"officeCost":0},"Caitlin Carlsson":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":7,"pay":1305,"lines":19,"officeCost":310},"Christopher Rivero":{"revenue":2210,"pay":1305,"lines":23,"officeCost":0},"Colton Amburgy":{"revenue":862,"pay":281,"lines":9,"officeCost":0},"Dell Barber":{"revenue":253,"pay":141.5,"lines":4,"officeCost":0},"Diego Chavez":{"revenue":611,"pay":310.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":1948,"pay":929,"lines":20,"officeCost":0},"Grant Harris":{"revenue":503,"pay":251.5,"lines":9,"officeCost":0},"Jacob Hune":{"revenue":343,"pay":96.5,"lines":4,"officeCost":0},"Jae'Len Arnum":{"revenue":831,"pay":385.5,"lines":10,"officeCost":0},"Jason Carr":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":504,"pay":252,"lines":3,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2546,"pay":1155.5,"lines":26,"officeCost":0},"Kevin Driggs":{"revenue":313,"pay":131.5,"lines":4,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Michelle Diaz":{"revenue":679,"pay":339.5,"lines":7,"officeCost":0},"Owen Johnson":{"revenue":343,"pay":311.5,"lines":5,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":3001,"pay":1655.5,"lines":28,"officeCost":0},"Ronald Campbell":{"revenue":686,"pay":373,"lines":8,"officeCost":0},"Ryleigh Bexfield":{"revenue":1915,"pay":1007.5,"lines":23,"officeCost":0},"Sean Ethington":{"revenue":313,"pay":156.5,"lines":3,"officeCost":0},"Sytoris Anderson":{"revenue":864,"pay":477,"lines":10,"officeCost":0},"Tiernan Dailey":{"revenue":496,"pay":248,"lines":6,"officeCost":0},"Tyler Lewis":{"revenue":358,"pay":194,"lines":2,"officeCost":0}}},{"label":"WE 3/16","sortKey":316,"reps":{"Alejandra Castillo":{"revenue":1159,"pay":544.5,"lines":8,"officeCost":0},"Anthony Imbese":{"revenue":4649,"pay":2439.5,"lines":44,"officeCost":0},"Caithlin Carlsson":{"revenue":626,"pay":313,"lines":6,"officeCost":0},"Cameron Grant":{"revenue":5,"pay":1225.01,"lines":15,"officeCost":200},"Christopher Rivero":{"revenue":4619,"pay":2429.5,"lines":44,"officeCost":0},"Colton Amburgy":{"revenue":1024,"pay":512,"lines":7,"officeCost":0},"Daniel Blank":{"revenue":1878,"pay":939,"lines":18,"officeCost":0},"Dell Barber":{"revenue":1275,"pay":1112.5,"lines":14,"officeCost":0},"Diego Chavez":{"revenue":2574,"pay":1282,"lines":33,"officeCost":0},"Dominic Garaycochea":{"revenue":1522,"pay":661,"lines":12,"officeCost":0},"Grace Tomaielly":{"revenue":148,"pay":74,"lines":2,"officeCost":0},"Grant Harris":{"revenue":846,"pay":917,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":1652,"pay":901,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jason Carr":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jayse Meek":{"revenue":138,"pay":69,"lines":1,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1189,"pay":599.5,"lines":8,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":626,"pay":313,"lines":6,"officeCost":0},"Kieondre Scott Tanner":{"revenue":193,"pay":96.5,"lines":3,"officeCost":0},"Michelle Diaz":{"revenue":338,"pay":184,"lines":2,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1660,"pay":830,"lines":13,"officeCost":0},"Ryleigh Bexfield":{"revenue":1347,"pay":693.5,"lines":15,"officeCost":0},"Sytoris Anderson":{"revenue":443,"pay":251.5,"lines":8,"officeCost":0},"Tiernan Dailey":{"revenue":408,"pay":204,"lines":1,"officeCost":0}}},{"label":"WE 3/22","sortKey":322,"reps":{"Alejandra Castillo":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Anthony Imbese":{"revenue":2021,"pay":975.5,"lines":18,"officeCost":0},"Cameron Grant":{"revenue":1,"pay":1020,"lines":12,"officeCost":100},"Christopher Rivero":{"revenue":1239,"pay":632,"lines":11,"officeCost":0},"Daniel Blank":{"revenue":987,"pay":1293.5,"lines":15,"officeCost":0},"Diego Chavez":{"revenue":1277,"pay":628.5,"lines":11,"officeCost":0},"Dominic Garaycochea":{"revenue":671,"pay":350.5,"lines":5,"officeCost":0},"Grant Harris":{"revenue":716,"pay":1138,"lines":7,"officeCost":0},"Jae'Len Arnum":{"revenue":2143,"pay":1071.5,"lines":18,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1943,"pay":951.5,"lines":18,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1302,"pay":711,"lines":15,"officeCost":0},"Lethia Houston":{"revenue":1876,"pay":781,"lines":16,"officeCost":0},"Owen Johnson":{"revenue":228,"pay":114,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":671,"pay":253.5,"lines":4,"officeCost":0},"Ryan Lima":{"revenue":358,"pay":159,"lines":3,"officeCost":0},"Ryleigh Bexfield":{"revenue":2249,"pay":1099.5,"lines":23,"officeCost":0},"Sean Ethington":{"revenue":353,"pay":176.5,"lines":2,"officeCost":0},"Tiernan Dailey":{"revenue":669,"pay":279.5,"lines":10,"officeCost":0},"Zachary Heath":{"revenue":328,"pay":164,"lines":1,"officeCost":0}}},{"label":"WE 3/29","sortKey":329,"reps":{"Abdallah Hasan":{"revenue":213,"pay":106.5,"lines":3,"officeCost":0},"Alejandra Castillo":{"revenue":1357,"pay":628.5,"lines":12,"officeCost":0},"Anthony Imbese":{"revenue":3010,"pay":1635,"lines":34,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":745,"lines":10,"officeCost":125},"Christopher Rivero":{"revenue":1525,"pay":792.5,"lines":18,"officeCost":0},"Daniel Blank":{"revenue":1014,"pay":507,"lines":7,"officeCost":0},"Diego Chavez":{"revenue":466,"pay":233,"lines":5,"officeCost":0},"Dominic Garaycochea":{"revenue":2401,"pay":1025.5,"lines":24,"officeCost":0},"Grace Tomaielly":{"revenue":1174,"pay":587,"lines":13,"officeCost":0},"Grant Harris":{"revenue":1723,"pay":1131.5,"lines":18,"officeCost":0},"Jae'Len Arnum":{"revenue":751,"pay":375.5,"lines":7,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":50,"lines":1,"officeCost":0},"Jonathan Bruner":{"revenue":3252,"pay":2331,"lines":29,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":2058,"pay":1029,"lines":18,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1930,"pay":1955,"lines":20,"officeCost":0},"Lethia Houston":{"revenue":4590,"pay":3805.5,"lines":38,"officeCost":0},"Owen Johnson":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":1094,"pay":338,"lines":11,"officeCost":0},"Ryan Lima":{"revenue":1865,"pay":1407.5,"lines":21,"officeCost":0},"Ryleigh Bexfield":{"revenue":769,"pay":484.5,"lines":5,"officeCost":0},"Tiernan Dailey":{"revenue":686,"pay":343,"lines":6,"officeCost":0},"Zachary Heath":{"revenue":736,"pay":1568,"lines":6,"officeCost":0}}},{"label":"WE 4/5","sortKey":405,"reps":{"Abdallah Hasan":{"revenue":990,"pay":1057.5,"lines":16,"officeCost":0},"Alejandra Castillo":{"revenue":1700,"pay":850,"lines":13,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":955,"lines":14,"officeCost":185},"Christopher Rivero":{"revenue":1124,"pay":519.5,"lines":11,"officeCost":0},"Daniel Blank":{"revenue":1029,"pay":459.5,"lines":10,"officeCost":0},"Diego Chavez":{"revenue":671,"pay":195.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":2972,"pay":1461,"lines":25,"officeCost":0},"Grace Tomaielly":{"revenue":168,"pay":59,"lines":2,"officeCost":0},"Grant Harris":{"revenue":1077,"pay":498.5,"lines":12,"officeCost":0},"Jae'Len Arnum":{"revenue":1490,"pay":745,"lines":12,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Jonathan Bruner":{"revenue":4206,"pay":2868,"lines":45,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":448,"pay":214,"lines":6,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1720,"pay":935,"lines":14,"officeCost":0},"Lethia Houston":{"revenue":3764,"pay":2442,"lines":41,"officeCost":0},"Renato Jimenez Guerrero":{"revenue":358,"pay":179,"lines":4,"officeCost":0},"Sytoris Anderson":{"revenue":578,"pay":334,"lines":10,"officeCost":0},"Tiernan Dailey":{"revenue":551,"pay":275.5,"lines":4,"officeCost":0},"Zachary Heath":{"revenue":616,"pay":338,"lines":4,"officeCost":0}}},{"label":"WE 4/18","sortKey":418,"reps":{"Abdallah Hasan":{"revenue":661,"pay":330.5,"lines":4,"officeCost":0},"Aidan Brinley":{"revenue":1144,"pay":1052,"lines":7,"officeCost":0},"Alejandra Castillo":{"revenue":336,"pay":168,"lines":4,"officeCost":0},"Anthony Imbese":{"revenue":70,"pay":835,"lines":4,"officeCost":0},"Cameron Grant":{"revenue":3,"pay":860,"lines":13,"officeCost":200},"Christopher Rivero":{"revenue":2472,"pay":1318.5,"lines":33,"officeCost":0},"Daniel Blank":{"revenue":1738,"pay":929,"lines":19,"officeCost":0},"Diego Chavez":{"revenue":591,"pay":300.5,"lines":7,"officeCost":0},"Dominic Garaycochea":{"revenue":1217,"pay":503.5,"lines":16,"officeCost":0},"Edward Pizzo":{"revenue":686,"pay":358,"lines":3,"officeCost":0},"Evan Spurrier":{"revenue":2084,"pay":1562,"lines":28,"officeCost":0},"Grace Tomaielly":{"revenue":864,"pay":507,"lines":8,"officeCost":0},"Grant Harris":{"revenue":601,"pay":330.5,"lines":6,"officeCost":0},"Jae'Len Arnum":{"revenue":2341,"pay":1235.5,"lines":19,"officeCost":0},"Jae'len Arnum":{"revenue":0,"pay":-45,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":358,"pay":194,"lines":2,"officeCost":0},"Jonathan Bruner":{"revenue":213,"pay":81.5,"lines":4,"officeCost":0},"Kayla Alexis Corbitt":{"revenue":1356,"pay":636,"lines":18,"officeCost":0},"Kevin Driggs":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":1685,"pay":857.5,"lines":17,"officeCost":0},"Lawrence Talbert":{"revenue":381,"pay":148.5,"lines":5,"officeCost":0},"Lethia Houston":{"revenue":1140,"pay":570,"lines":13,"officeCost":0},"Renato Jimenez":{"revenue":0,"pay":-70,"lines":2,"officeCost":0},"Rodrigo Silva":{"revenue":1880,"pay":1470,"lines":18,"officeCost":0},"Ryleigh Bexfield":{"revenue":0,"pay":-50,"lines":2,"officeCost":0},"Sylas Emmanuelli":{"revenue":1573,"pay":1076.5,"lines":23,"officeCost":0},"Sytoris Anderson":{"revenue":1179,"pay":662,"lines":7,"officeCost":0},"Tiernan Dailey":{"revenue":2003,"pay":1331.5,"lines":17,"officeCost":0},"Zachary Heath":{"revenue":736,"pay":398,"lines":8,"officeCost":0}}},{"label":"WE 5/3","sortKey":503,"reps":{"Abdallah Hasan":{"revenue":1224,"pay":742,"lines":10,"officeCost":0},"Aidan Brinley":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":1035,"lines":14,"officeCost":185},"Christopher Rivero":{"revenue":596,"pay":298,"lines":10,"officeCost":0},"Daniel Blank":{"revenue":1059,"pay":464.5,"lines":13,"officeCost":0},"Edward Pizzo":{"revenue":852,"pay":426,"lines":12,"officeCost":0},"Evan Spurrier":{"revenue":0,"pay":400,"lines":1,"officeCost":0},"Grace Tomaielly":{"revenue":2331,"pay":1190.5,"lines":23,"officeCost":0},"Grant Harris":{"revenue":1134,"pay":572,"lines":14,"officeCost":0},"Grant Miner":{"revenue":616,"pay":340.5,"lines":3,"officeCost":0},"Jae'Len Arnum":{"revenue":1665,"pay":832.5,"lines":15,"officeCost":0},"Jayse Meek":{"revenue":3172,"pay":1636,"lines":33,"officeCost":0},"Jonathan Bruner":{"revenue":829,"pay":639.5,"lines":8,"officeCost":0},"Lawrence Talbert":{"revenue":0,"pay":232.5,"lines":1,"officeCost":0},"Lethia Houston":{"revenue":2371,"pay":1210.5,"lines":20,"officeCost":0},"Miguel Fumero":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Rodrigo Silva Luis":{"revenue":666,"pay":258,"lines":7,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":994,"pay":497,"lines":7,"officeCost":0},"Sytoris Anderson":{"revenue":1269,"pay":714.5,"lines":13,"officeCost":0},"Tiernan Dailey":{"revenue":1440,"pay":672.5,"lines":22,"officeCost":0},"Zachary Heath":{"revenue":1182,"pay":591,"lines":12,"officeCost":0}}},{"label":"WE 5/10","sortKey":510,"reps":{"Abdallah Hasan":{"revenue":473,"pay":269,"lines":5,"officeCost":0},"Aidan Brinley":{"revenue":468,"pay":234,"lines":7,"officeCost":0},"Alejandra Castillo":{"revenue":203,"pay":101.5,"lines":3,"officeCost":0},"Anthony Imbese":{"revenue":1455,"pay":702.5,"lines":15,"officeCost":0},"Cameron Grant":{"revenue":0,"pay":980,"lines":13,"officeCost":250},"Christopher Rivero":{"revenue":2291,"pay":1145.5,"lines":23,"officeCost":0},"Daniel Blank":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Evan Spurrier":{"revenue":1072,"pay":536,"lines":16,"officeCost":0},"Grace Tomaielly":{"revenue":336,"pay":168,"lines":4,"officeCost":0},"Grant Harris":{"revenue":2083,"pay":1001.5,"lines":21,"officeCost":0},"Grant Miner":{"revenue":602,"pay":301,"lines":7,"officeCost":0},"Jade Leone":{"revenue":0,"pay":-25,"lines":1,"officeCost":0},"Jae'Len Arnum":{"revenue":328,"pay":164,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":1054,"pay":477,"lines":12,"officeCost":0},"Jonathan Barkley":{"revenue":666,"pay":333,"lines":6,"officeCost":0},"Jonathan Bruner":{"revenue":1337,"pay":668.5,"lines":9,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":0,"pay":50,"lines":1,"officeCost":0},"Lethia Houston":{"revenue":1000,"pay":500,"lines":13,"officeCost":0},"Miguel Fumero":{"revenue":669,"pay":334.5,"lines":7,"officeCost":0},"Rodrigo Silva Luis":{"revenue":1676,"pay":788,"lines":16,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":661,"pay":295.5,"lines":5,"officeCost":0},"Sytoris Anderson":{"revenue":796,"pay":433,"lines":9,"officeCost":0},"Tiernan Dailey":{"revenue":1725,"pay":1010,"lines":14,"officeCost":0},"Zachary Heath":{"revenue":-3656.45,"pay":-1828.225,"lines":7,"officeCost":0}}},{"label":"WE 5/17","sortKey":517,"reps":{"Abdallah Hasan":{"revenue":1717,"pay":963.5,"lines":18,"officeCost":0},"Aidan Brinley":{"revenue":1468,"pay":531,"lines":17,"officeCost":0},"Alejandra Castillo":{"revenue":308,"pay":154,"lines":1,"officeCost":0},"Cameron Grant":{"revenue":4,"pay":610,"lines":7,"officeCost":100},"Christopher Rivero":{"revenue":238,"pay":84,"lines":4,"officeCost":0},"Evan Spurrier":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Grace Tomaielly":{"revenue":1505,"pay":602.5,"lines":16,"officeCost":0},"Grant Harris":{"revenue":942,"pay":471,"lines":12,"officeCost":0},"Grant Miner":{"revenue":474,"pay":237,"lines":7,"officeCost":0},"Jae'Len Arnum":{"revenue":208,"pay":104,"lines":1,"officeCost":0},"Jayse Meek":{"revenue":348,"pay":174,"lines":4,"officeCost":0},"Jonathan Bruner":{"revenue":160,"pay":55,"lines":7,"officeCost":0},"Kevin Driggs":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0},"Kieondre Myquel Scott-Tanner":{"revenue":408,"pay":204,"lines":4,"officeCost":0},"Lethia Houston":{"revenue":43,"pay":21.5,"lines":2,"officeCost":0},"Prince Sanchez":{"revenue":406,"pay":603,"lines":7,"officeCost":0},"Rodrigo Silva Luis":{"revenue":323,"pay":561.5,"lines":2,"officeCost":0},"Sylas Samar Emmanuelli":{"revenue":1421,"pay":507.5,"lines":21,"officeCost":0},"Tiernan Dailey":{"revenue":691,"pay":285.5,"lines":8,"officeCost":0},"Zachary Heath":{"revenue":333,"pay":166.5,"lines":3,"officeCost":0}}}]}</script>
 </head>
 <body>
 
@@ -109,6 +125,7 @@ select:focus{outline:none;border-color:var(--accent)}
   <button class="tab-btn" data-tab="reps">Rep Trends</button>
   <button class="tab-btn" data-tab="roster">Roster Tracker</button>
   <button class="tab-btn" data-tab="compare">Compare Weeks</button>
+  <button class="tab-btn" data-tab="expenses">Expenses</button>
 </nav>
 
 <div id="toast"></div>
@@ -220,7 +237,9 @@ select:focus{outline:none;border-color:var(--accent)}
               <th>Week Ending</th>
               <th class="num">Revenue</th>
               <th class="num">Pay</th>
-              <th class="num">P/L (×1.12)</th>
+              <th class="num">Gross P/L</th>
+              <th class="num">Overhead</th>
+              <th class="num">Net P/L</th>
               <th class="num">Pay %</th>
               <th class="num">Active Reps</th>
               <th class="num">Lines</th>
@@ -380,7 +399,68 @@ select:focus{outline:none;border-color:var(--accent)}
   </div>
 </section>
 
+<!-- EXPENSES TAB -->
+<section class="tab-section" id="tab-expenses">
+  <div class="card">
+    <div class="card-header">
+      <h3>Office Recurring Expenses</h3>
+      <span class="dim" style="font-size:12px;flex:1">Click any cell to edit · affects all P/L calculations</span>
+      <button class="btn sm" onclick="addExpenseRow()">+ Add Row</button>
+      <button class="btn sm" onclick="resetExpenses()">Reset</button>
+    </div>
+    <div class="card-body" style="padding:0">
+      <div class="tbl-wrap">
+        <table id="expenseTable">
+          <thead><tr>
+            <th style="min-width:140px">Group</th>
+            <th style="min-width:220px">Description</th>
+            <th style="min-width:110px">Frequency</th>
+            <th class="num" style="min-width:110px">Amount</th>
+            <th class="num" style="min-width:110px">Weekly Cost</th>
+            <th style="width:36px"></th>
+          </tr></thead>
+          <tbody id="expenseBody"></tbody>
+          <tfoot><tr style="font-weight:700;border-top:2px solid var(--border)">
+            <td colspan="4" style="padding:10px 12px;font-family:var(--fh);font-size:12px;letter-spacing:.06em;text-transform:uppercase">Total Weekly Overhead</td>
+            <td class="num" id="expenseTotalCell" style="padding:10px 12px;color:var(--red)">—</td>
+            <td></td>
+          </tr></tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="stat-grid" id="expenseSummaryStats" style="margin-top:16px"></div>
+</section>
+
 </main>
+
+<!-- Rep detail modal -->
+<div id="repModal" class="modal-overlay" style="display:none" onclick="if(event.target===this)closeRepModal()">
+  <div class="modal-box">
+    <div class="card-header" style="gap:14px">
+      <h3 id="repModalTitle" style="flex:1">Rep Detail</h3>
+      <label class="dim" style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap">Pay Period</label>
+      <select id="repModalWeek" onchange="renderRepLines()" style="background:var(--elev2);border:1px solid var(--border);color:var(--text);padding:5px 8px;border-radius:6px;font-size:13px;font-family:var(--fm)"></select>
+      <button class="btn sm" onclick="closeRepModal()">✕ Close</button>
+    </div>
+    <div class="card-body">
+      <div class="stat-grid" id="repModalStats" style="margin-bottom:14px"></div>
+      <input id="repSearch" type="search" placeholder="Search customer or category…" oninput="renderRepLines()" style="width:100%;background:var(--elev2);border:1px solid var(--border);color:var(--text);padding:7px 10px;border-radius:6px;font-size:13px;font-family:var(--fm);margin-bottom:12px;display:block">
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr>
+            <th onclick="sortRepLines('customer')">Customer / Account <span class="sort-ind" id="si-customer"></span></th>
+            <th onclick="sortRepLines('category')">Category <span class="sort-ind" id="si-category"></span></th>
+            <th class="num" onclick="sortRepLines('revenue')">Revenue <span class="sort-ind" id="si-revenue"></span></th>
+            <th class="num" onclick="sortRepLines('pay')">Pay <span class="sort-ind" id="si-pay"></span></th>
+            <th class="num" onclick="sortRepLines('pl')">P/L Impact <span class="sort-ind" id="si-pl"></span></th>
+          </tr></thead>
+          <tbody id="repModalBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
 const _ORIGINAL_SRC=document.documentElement.outerHTML;
@@ -406,6 +486,114 @@ function saveSession(){
     };
     localStorage.setItem(SESSION_KEY,JSON.stringify(payload));
   }catch(e){console.warn('Save failed:',e)}
+}
+
+// ── Office Expenses ───────────────────────────────────────────
+const EXPENSES_KEY='nova_expenses_v1';
+const DEFAULT_EXPENSES=[
+  {id:1,  group:'Can Be Split',    description:'Admin',                    frequency:'weekly',  amount:1000},
+  {id:2,  group:'Can Be Split',    description:'Owner Payroll',            frequency:'weekly',  amount:1000},
+  {id:3,  group:'Can Be Split',    description:'Recruiting Service',       frequency:'weekly',  amount:0},
+  {id:4,  group:'Can Be Split',    description:'Recruiting Service #2',    frequency:'weekly',  amount:0},
+  {id:5,  group:'Can Be Split',    description:'Jobs2Me',                  frequency:'weekly',  amount:12.75},
+  {id:6,  group:'Can Be Split',    description:'Indeed',                   frequency:'weekly',  amount:0},
+  {id:7,  group:'Can Be Split',    description:'Zip Recruiter',            frequency:'weekly',  amount:0},
+  {id:8,  group:'Can Be Split',    description:'JazzHR',                   frequency:'weekly',  amount:0},
+  {id:9,  group:'Can Be Split',    description:'LinkedIn',                 frequency:'weekly',  amount:0},
+  {id:10, group:'Can Be Split',    description:'Rubix / Cam - Website',   frequency:'weekly',  amount:0},
+  {id:11, group:'Can Be Split',    description:'Arcadia (NLR)',            frequency:'weekly',  amount:225},
+  {id:12, group:'Can Be Split',    description:'Rent',                     frequency:'monthly', amount:1400},
+  {id:13, group:'Can Be Split',    description:'Internet',                 frequency:'monthly', amount:0},
+  {id:14, group:'Can Be Split',    description:'Utilities',                frequency:'monthly', amount:0},
+  {id:15, group:'Can Be Split',    description:'Cell Phone',               frequency:'monthly', amount:0},
+  {id:16, group:'Can Be Split',    description:'Dropbox',                  frequency:'monthly', amount:0},
+  {id:17, group:'Can Be Split',    description:'Zoom',                     frequency:'monthly', amount:0},
+  {id:18, group:'Can Be Split',    description:'Brzy',                     frequency:'monthly', amount:0},
+  {id:19, group:'Can Be Split',    description:'Phone Burner (Estream)',   frequency:'monthly', amount:0},
+  {id:20, group:'Can Be Split',    description:'JazzHR',                   frequency:'monthly', amount:0},
+  {id:21, group:'Can Be Split',    description:'LinkedIn',                 frequency:'monthly', amount:0},
+  {id:22, group:'Can Be Split',    description:'Indeed',                   frequency:'monthly', amount:0},
+  {id:23, group:"Can't Be Split",  description:'Estream',                  frequency:'weekly',  amount:98.12},
+  {id:24, group:"Can't Be Split",  description:'Hub Fee',                  frequency:'weekly',  amount:100},
+  {id:25, group:"Can't Be Split",  description:'Insurance',                frequency:'weekly',  amount:50},
+  {id:26, group:"Can't Be Split",  description:'FAS / Accountant',         frequency:'weekly',  amount:50},
+  {id:27, group:"Can't Be Split",  description:'Sterling (Background Checks)', frequency:'monthly', amount:250},
+  {id:28, group:"Can't Be Split",  description:'WC (Workers Compensation)', frequency:'monthly', amount:100},
+];
+let expenses=[];
+let _expNextId=100;
+
+function weeklyExpenseCost(e){return e.frequency==='monthly'?e.amount/4.33:e.amount;}
+function totalWeeklyOverhead(){return expenses.reduce((s,e)=>s+weeklyExpenseCost(e),0);}
+
+function loadExpenses(){
+  try{const s=JSON.parse(localStorage.getItem(EXPENSES_KEY)||'null');if(s&&s.length){expenses=s;_expNextId=Math.max(...s.map(e=>e.id||0))+1;return;}}catch(e){}
+  expenses=JSON.parse(JSON.stringify(DEFAULT_EXPENSES));
+}
+function saveExpenses(){try{localStorage.setItem(EXPENSES_KEY,JSON.stringify(expenses));}catch(e){}}
+
+function renderExpensesTab(){
+  let lastGroup=null;
+  const rows=[];
+  let grandTotal=0;
+  expenses.forEach(e=>{
+    const wc=weeklyExpenseCost(e);
+    grandTotal+=wc;
+    if(e.group!==lastGroup){
+      rows.push(`<tr class="exp-group-hdr"><td colspan="6">${e.group}</td></tr>`);
+      lastGroup=e.group;
+    }
+    const amtDisplay=e.amount?e.amount.toFixed(2):'';
+    rows.push(`<tr>
+      <td style="padding:6px 12px"><input class="exp-input" data-id="${e.id}" data-field="group" value="${(e.group||'').replace(/"/g,'&quot;')}" placeholder="Group"></td>
+      <td style="padding:6px 12px"><input class="exp-input" data-id="${e.id}" data-field="description" value="${(e.description||'').replace(/"/g,'&quot;')}" placeholder="Description"></td>
+      <td style="padding:6px 12px"><select class="exp-sel" data-id="${e.id}" data-field="frequency">
+        <option value="weekly" ${e.frequency==='weekly'?'selected':''}>Weekly</option>
+        <option value="monthly" ${e.frequency==='monthly'?'selected':''}>Monthly</option>
+      </select></td>
+      <td style="padding:6px 12px"><input class="exp-input num" data-id="${e.id}" data-field="amount" type="number" min="0" step="0.01" value="${e.amount||0}" placeholder="0.00"></td>
+      <td class="num" style="padding:6px 12px;color:${wc>0?'var(--dim)':'var(--dim)'}">${wc>0?'$'+wc.toFixed(2):'—'}</td>
+      <td style="padding:4px 8px;text-align:center"><button class="fdel" data-id="${e.id}" onclick="deleteExpenseRow(${e.id})" title="Remove">✕</button></td>
+    </tr>`);
+  });
+  $('expenseBody').innerHTML=rows.join('');
+  $('expenseTotalCell').textContent='$'+grandTotal.toFixed(2);
+
+  const monthlyTotal=grandTotal*4.33;
+  const annualTotal=grandTotal*52;
+  $('expenseSummaryStats').innerHTML=`
+    <div class="stat-card red"><div class="lbl">Weekly Overhead</div><div class="val">$${grandTotal.toFixed(0)}</div><div class="sub">per pay period</div></div>
+    <div class="stat-card red"><div class="lbl">Monthly Overhead</div><div class="val">$${monthlyTotal.toFixed(0)}</div><div class="sub">estimated</div></div>
+    <div class="stat-card red"><div class="lbl">Annual Overhead</div><div class="val">$${annualTotal.toFixed(0)}</div><div class="sub">52 weeks</div></div>
+    ${weeks.length?`<div class="stat-card ${(totalWeeklyOverhead()*weeks.length)>0?'red':''}"><div class="lbl">Total Overhead Loaded</div><div class="val">$${(totalWeeklyOverhead()*weeks.length).toFixed(0)}</div><div class="sub">${weeks.length} weeks loaded</div></div>`:''}`;
+
+  // Wire up change events for inputs and selects
+  $('expenseBody').querySelectorAll('.exp-input,.exp-sel').forEach(el=>{
+    el.addEventListener('change',()=>{
+      const id=parseInt(el.dataset.id),field=el.dataset.field;
+      const exp=expenses.find(e=>e.id===id);
+      if(!exp)return;
+      if(field==='amount')exp.amount=parseFloat(el.value)||0;
+      else exp[field]=el.value;
+      saveExpenses();
+      renderExpensesTab();
+      renderOfficeTab(); // refresh P/L immediately
+    });
+  });
+}
+
+function addExpenseRow(){
+  expenses.push({id:_expNextId++,group:'Can Be Split',description:'',frequency:'weekly',amount:0});
+  saveExpenses();renderExpensesTab();
+}
+function deleteExpenseRow(id){
+  expenses=expenses.filter(e=>e.id!==id);
+  saveExpenses();renderExpensesTab();renderOfficeTab();
+}
+function resetExpenses(){
+  if(!confirm('Reset expenses to Kevin P&L defaults?'))return;
+  expenses=JSON.parse(JSON.stringify(DEFAULT_EXPENSES));
+  saveExpenses();renderExpensesTab();renderOfficeTab();
 }
 
 function loadSession(){
@@ -647,6 +835,7 @@ function renderAll(){
   renderRepsTab();
   renderRosterTab();
   renderCompareTab();
+  renderExpensesTab();
 }
 
 // ── Office overview ───────────────────────────────────────────
@@ -668,11 +857,16 @@ function renderOfficeTab(){
   });
   const totPL=plCalc(totRev,totPay);
   const avgPct=totRev>0?totPay/totRev*100:0;
+  const totalOverhead=totalWeeklyOverhead()*weeks.length;
+  const totInstallNetCostFull=totInstallNetCost;
+  const netPL=totPL-totalOverhead-totInstallNetCostFull;
 
-  const installRepCoverage=totInstallGross-totInstallNetCost; // portion recovered from rep chargebacks
+  const installRepCoverage=totInstallGross-totInstallNetCost;
   $('officeSummaryStats').innerHTML=`
     <div class="stat-card accent"><div class="lbl">Total Revenue</div><div class="val">${fmt$(totRev)}</div><div class="sub">${weeks.length} weeks</div></div>
-    <div class="stat-card ${totPL>=0?'green':'red'}"><div class="lbl">Total P/L</div><div class="val">${fmt$(totPL)}</div><div class="sub">(Rev − Pay) × 1.12</div></div>
+    <div class="stat-card ${totPL>=0?'green':'red'}"><div class="lbl">Gross P/L</div><div class="val">${fmt$(totPL)}</div><div class="sub">(Rev − Pay) × 1.12</div></div>
+    <div class="stat-card red"><div class="lbl">Office Overhead</div><div class="val">${fmt$(totalOverhead)}</div><div class="sub">${fmt$(totalWeeklyOverhead())}/wk × ${weeks.length}wks</div></div>
+    <div class="stat-card ${netPL>=0?'green':'red'}"><div class="lbl">Net P/L</div><div class="val">${fmt$(netPL)}</div><div class="sub">after overhead &amp; installs</div></div>
     <div class="stat-card"><div class="lbl">Total Rep Pay</div><div class="val">${fmt$(totPay)}</div><div class="sub">Avg ${fmtPct(avgPct)} of Rev</div></div>
     <div class="stat-card red"><div class="lbl">Installer Net Cost</div><div class="val">${fmt$(totInstallNetCost)}</div><div class="sub">${fmt$(totInstallGross)} gross · ${fmt$(installRepCoverage)} from reps</div></div>
     <div class="stat-card yellow"><div class="lbl">Best Week</div><div class="val" style="font-size:20px">${bestWkLabel||'—'}</div><div class="sub">${fmt$(bestWkRev)} rep rev</div></div>
@@ -721,20 +915,43 @@ function renderOfficePLChart(){
 }
 
 function renderOfficeSummaryTable(){
-  let totRev=0,totPay=0,totLines=0;
+  let totRev=0,totPay=0,totLines=0,totGrossPL=0,totNetPL=0;
+  const wkOverhead=totalWeeklyOverhead();
   const rows=weeks.map(w=>{
-    let rev=0,pay=0,lines=0;
+    let rev=0,pay=0,lines=0,installCost=0;
     Object.entries(w.reps).forEach(([rep,r])=>{
       if(!isInstaller(rep)){rev+=r.revenue;pay+=r.pay;}
-      else{pay+=r.officeCost||0;} // use true office net cost for installers
+      else{pay+=r.officeCost||0;installCost+=r.officeCost||0;}
       lines+=r.lines;
     });
-    const pnl=plCalc(rev,pay);const pct=rev>0?pay/rev*100:0;
-    totRev+=rev;totPay+=pay;totLines+=lines;
-    return`<tr><td>${w.label}</td><td class="num">${fmt$(rev)}</td><td class="num">${fmt$(pay)}</td><td class="num ${pnl>=0?'pos':'neg'}">${fmt$(pnl)}</td><td class="num">${fmtPct(pct)}</td><td class="num">${Object.keys(w.reps).length}</td><td class="num">${lines}</td></tr>`;
+    const pnl=plCalc(rev,pay);
+    const netPnl=pnl-wkOverhead;
+    const pct=rev>0?pay/rev*100:0;
+    totRev+=rev;totPay+=pay;totLines+=lines;totGrossPL+=pnl;totNetPL+=netPnl;
+    return`<tr>
+      <td>${w.label}</td>
+      <td class="num">${fmt$(rev)}</td>
+      <td class="num">${fmt$(pay)}</td>
+      <td class="num ${pnl>=0?'pos':'neg'}">${fmt$(pnl)}</td>
+      <td class="num neg">${fmt$(wkOverhead)}</td>
+      <td class="num ${netPnl>=0?'pos':'neg'}">${fmt$(netPnl)}</td>
+      <td class="num">${fmtPct(pct)}</td>
+      <td class="num">${Object.keys(w.reps).length}</td>
+      <td class="num">${lines}</td>
+    </tr>`;
   });
-  const tPL=plCalc(totRev,totPay);const tPct=totRev>0?totPay/totRev*100:0;
-  rows.push(`<tr style="font-weight:600;border-top:2px solid var(--border)"><td>TOTAL</td><td class="num">${fmt$(totRev)}</td><td class="num">${fmt$(totPay)}</td><td class="num ${tPL>=0?'pos':'neg'}">${fmt$(tPL)}</td><td class="num">${fmtPct(tPct)}</td><td class="num">—</td><td class="num">${totLines}</td></tr>`);
+  const tPct=totRev>0?totPay/totRev*100:0;
+  rows.push(`<tr style="font-weight:600;border-top:2px solid var(--border)">
+    <td>TOTAL</td>
+    <td class="num">${fmt$(totRev)}</td>
+    <td class="num">${fmt$(totPay)}</td>
+    <td class="num ${totGrossPL>=0?'pos':'neg'}">${fmt$(totGrossPL)}</td>
+    <td class="num neg">${fmt$(wkOverhead*weeks.length)}</td>
+    <td class="num ${totNetPL>=0?'pos':'neg'}">${fmt$(totNetPL)}</td>
+    <td class="num">${fmtPct(tPct)}</td>
+    <td class="num">—</td>
+    <td class="num">${totLines}</td>
+  </tr>`);
   $('officeSummaryBody').innerHTML=rows.join('');
 }
 
@@ -851,24 +1068,136 @@ function renderRosterTab(){
   html+=weeks.map(w=>`<th class="num" style="min-width:56px">${w.label}</th>`).join('');
   html+='</tr></thead><tbody>';
   for(const rep of sorted){
-    html+=`<tr><td style="position:sticky;left:0;background:var(--elev2)"><span class="dot" style="background:${repColor(rep)}"></span>${rep}</td>`;
-    html+=weeks.map(w=>w.reps[rep]?`<td class="num" style="color:var(--green)" title="${fmt$(w.reps[rep].revenue)}">✓</td>`:'<td class="num dim">—</td>').join('');
+    html+=`<tr><td style="position:sticky;left:0;background:var(--elev2)"><span class="dot" style="background:${repColor(rep)}"></span><span class="rep-link" data-rep="${rep.replace(/"/g,'&quot;')}">${rep}</span></td>`;
+    html+=weeks.map(w=>w.reps[rep]?`<td class="num" title="${fmt$(w.reps[rep].revenue)} · click to view lines"><span class="rep-check" data-rep="${rep.replace(/"/g,'&quot;')}" data-week="${w.sortKey}">✓</span></td>`:'<td class="num dim">—</td>').join('');
     html+='</tr>';
   }
   html+='</tbody></table>';
   $('activityMatrix').innerHTML=html;
 
   $('newRepsBody').innerHTML=newReps.length
-    ?newReps.sort((a,b)=>firstActive[a]-firstActive[b]).map(r=>`<tr><td>${r}</td><td>${weeks[firstActive[r]]?.label||'—'}</td></tr>`).join('')
+    ?newReps.sort((a,b)=>firstActive[a]-firstActive[b]).map(r=>`<tr><td><span class="rep-link" data-rep="${r.replace(/"/g,'&quot;')}">${r}</span></td><td>${weeks[firstActive[r]]?.label||'—'}</td></tr>`).join('')
     :'<tr><td colspan="2" class="dim" style="text-align:center;padding:16px">All reps were active from week 1</td></tr>';
 
   $('goneRepsBody').innerHTML=goneReps.length
     ?goneReps.sort((a,b)=>lastActive[b]-lastActive[a]).map(r=>{
         const ago=lastWkIdx-lastActive[r];
-        return`<tr><td>${r}</td><td>${weeks[lastActive[r]]?.label||'—'}</td><td class="num ${ago>4?'neg':'dim'}">${ago}w</td></tr>`;
+        return`<tr><td><span class="rep-link" data-rep="${r.replace(/"/g,'&quot;')}">${r}</span></td><td>${weeks[lastActive[r]]?.label||'—'}</td><td class="num ${ago>4?'neg':'dim'}">${ago}w</td></tr>`;
       }).join('')
     :'<tr><td colspan="3" class="dim" style="text-align:center;padding:16px">All reps still active</td></tr>';
 }
+
+// ── Rep detail modal ──────────────────────────────────────────
+let _modalRep=null,_sortCol=null,_sortDir=1;
+
+function fuzzyMatch(pattern,str){
+  if(!pattern)return true;
+  str=(str||'').toLowerCase();pattern=pattern.toLowerCase();
+  let pi=0;
+  for(let i=0;i<str.length&&pi<pattern.length;i++){if(str[i]===pattern[pi])pi++;}
+  return pi===pattern.length;
+}
+
+function sortRepLines(col){
+  if(_sortCol===col)_sortDir*=-1;else{_sortCol=col;_sortDir=1;}
+  renderRepLines();
+}
+
+function openRepDetail(rep,sortKey=null){
+  _modalRep=rep;_sortCol=null;_sortDir=1;
+  if($('repSearch'))$('repSearch').value='';
+  $('repModalTitle').innerHTML=repLabel(rep);
+  const repWeeks=weeks.filter(w=>w.reps[rep]);
+  if(!repWeeks.length)return;
+  const sel=$('repModalWeek');
+  sel.innerHTML=repWeeks.map(w=>`<option value="${w.sortKey}">${w.label}</option>`).join('');
+  sel.value=sortKey||repWeeks[repWeeks.length-1].sortKey;
+  $('repModal').style.display='flex';
+  renderRepLines();
+}
+
+function closeRepModal(){
+  $('repModal').style.display='none';
+  _modalRep=null;
+}
+
+function renderRepLines(){
+  const rep=_modalRep;
+  if(!rep)return;
+  const sortKey=Number($('repModalWeek').value);
+
+  // Pull raw rows from fileStore for this week+rep
+  const rawRows=[];
+  for(const entry of Object.values(fileStore)){
+    if(entry.sortKey===sortKey&&entry.data){
+      rawRows.push(...entry.data.filter(r=>r.rep===rep));
+    }
+  }
+
+  // Summary stats (always over full unfiltered rows)
+  const totRev=rawRows.reduce((s,r)=>s+r.revenue,0);
+  const totPay=rawRows.reduce((s,r)=>s+r.pay,0);
+  const totOC=isInstaller(rep)?rawRows.reduce((s,r)=>s+installerLineOfficeCost(r.pay,r.category),0):0;
+  const totPL=isInstaller(rep)?-totOC:plCalc(totRev,totPay);
+
+  $('repModalStats').innerHTML=`
+    <div class="stat-card accent"><div class="lbl">Lines</div><div class="val">${rawRows.length||'—'}</div></div>
+    <div class="stat-card"><div class="lbl">Revenue</div><div class="val" style="font-size:20px">${isInstaller(rep)?'<span class="dim" style="font-size:14px">installer</span>':fmt$(totRev)}</div></div>
+    <div class="stat-card"><div class="lbl">Pay</div><div class="val" style="font-size:20px">${rawRows.length?fmt$(totPay):'—'}</div></div>
+    <div class="stat-card ${totPL>=0?'green':'red'}"><div class="lbl">P/L Impact</div><div class="val" style="font-size:20px">${rawRows.length?fmt$(totPL):'—'}</div></div>`;
+
+  if(!rawRows.length){
+    $('repModalBody').innerHTML=`<tr><td colspan="5" class="dim" style="text-align:center;padding:28px">
+      No line-item data for this period.<br>
+      <span style="font-size:11px">Upload the CS xlsx file locally to see details.</span>
+    </td></tr>`;
+    return;
+  }
+
+  // Annotate with computed pl
+  let rows=rawRows.map(r=>({...r,pl:isInstaller(r.rep)?-installerLineOfficeCost(r.pay,r.category):plCalc(r.revenue,r.pay)}));
+
+  // Fuzzy search filter
+  const q=($('repSearch')?.value||'').trim();
+  if(q)rows=rows.filter(r=>fuzzyMatch(q,r.customer)||fuzzyMatch(q,r.category));
+
+  // Sort
+  if(_sortCol){
+    rows.sort((a,b)=>{
+      if(_sortCol==='customer')return a.customer.localeCompare(b.customer)*_sortDir;
+      if(_sortCol==='category')return(a.category||'').localeCompare(b.category||'')*_sortDir;
+      if(_sortCol==='revenue')return(a.revenue-b.revenue)*_sortDir;
+      if(_sortCol==='pay')return(a.pay-b.pay)*_sortDir;
+      if(_sortCol==='pl')return(a.pl-b.pl)*_sortDir;
+      return 0;
+    });
+  }
+
+  // Update sort indicators
+  ['customer','category','revenue','pay','pl'].forEach(col=>{
+    const el=$('si-'+col);
+    if(el)el.textContent=_sortCol===col?(_sortDir>0?'▲':'▼'):'';
+  });
+
+  $('repModalBody').innerHTML=rows.length
+    ?rows.map(r=>`<tr>
+      <td>${r.customer||'—'}</td>
+      <td>${r.category||'—'}</td>
+      <td class="num">${isInstaller(r.rep)?'<span class="dim">—</span>':fmt$(r.revenue)}</td>
+      <td class="num">${fmt$(r.pay)}</td>
+      <td class="num ${r.pl>=0?'pos':'neg'}">${fmt$(r.pl)}</td>
+    </tr>`).join('')
+    :`<tr><td colspan="5" class="dim" style="text-align:center;padding:16px">No matches for "${q}"</td></tr>`;
+}
+
+// Delegated click for rep-link (name) and rep-check (matrix cell)
+document.addEventListener('click',e=>{
+  const chk=e.target.closest('.rep-check');
+  if(chk&&chk.dataset.rep){openRepDetail(chk.dataset.rep,Number(chk.dataset.week));return;}
+  const lnk=e.target.closest('.rep-link');
+  if(lnk&&lnk.dataset.rep)openRepDetail(lnk.dataset.rep);
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeRepModal()});
 
 // ── Compare weeks ─────────────────────────────────────────────
 function renderCompareTab(){
@@ -1155,6 +1484,8 @@ function toggleAdminMode(){
 // ── Startup: embedded payload → localStorage → empty ─────────
 (function(){
   loadGhSettings();
+  loadExpenses();
+  renderExpensesTab();
   // 1. Check for baked-in data (published/client mode)
   const embedded=readEmbeddedPayload();
   if(embedded){
